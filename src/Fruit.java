@@ -3,8 +3,8 @@ public abstract class Fruit {
     private double sugarContent;
     private double waterContent;
     private Color color;
-    private boolean peeled;
-    private boolean seedsRemoved;
+    public boolean peeled;
+    public boolean seedsRemoved;
 
     public Fruit(double weight, double sugarContent, double waterContent, Color color) {
         this.weight = weight;

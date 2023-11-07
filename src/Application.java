@@ -41,12 +41,12 @@ public class Application {
             if (fruit instanceof Peelable) {
                 Peelable peelableFruit = (Peelable) fruit;
                 peelableFruit.peelOff();
-                fruit.peeled_after(true); // Update the status
+                fruit.peeled = true; // Update the status
             }
             if (fruit instanceof SeedRemovable) {
                 SeedRemovable seedRemovableFruit = (SeedRemovable) fruit;
                 seedRemovableFruit.removeSeeds();
-                fruit.seedsRemoved_after(); // Update the status
+                fruit.seedsRemoved = true; // Update the status
             }
         }
     }
