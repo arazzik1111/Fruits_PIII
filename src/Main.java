@@ -4,5 +4,5 @@ public class Main {
         Fruit[] fruits = app.readFruit();
         app.prepareFruit(fruits);
         app.outputFruitInfo(fruits);
-    }
+     }
 }
